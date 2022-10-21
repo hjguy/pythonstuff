@@ -1,0 +1,9 @@
+print ("Enter your mark")
+mark=int(input())
+if mark > 80 :
+    print("Distinction")
+elif mark > 60 :
+    print ("Pass")    
+else :
+    print ("Fail")
+     

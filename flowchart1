@@ -1,0 +1,18 @@
+a=int(input("Enter value for A"))
+b=int(input("Enter value for B"))
+c=int(input("Enter value for C"))
+
+
+if a > b and a > c :
+    print(a)
+
+elif a > b and c > a:
+    print(c)
+
+elif b > a and b > c:
+    print(b)
+
+else :
+    print (c) 
+
+    
